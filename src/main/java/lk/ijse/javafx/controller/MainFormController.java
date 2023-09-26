@@ -21,9 +21,6 @@ public class MainFormController {
         Stage stage = new Stage();
         stage.setScene(scene);
 
-        stage.resizableProperty().setValue(false);
-        stage.initStyle(StageStyle.UNDECORATED);
-
         stage.show();
     }
 

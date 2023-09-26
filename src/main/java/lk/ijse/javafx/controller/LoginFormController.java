@@ -8,6 +8,7 @@ import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
+import lk.ijse.javafx.LauncherWrapper;
 import lk.ijse.javafx.db.db;
 
 import java.io.IOException;
@@ -30,6 +31,7 @@ public class LoginFormController {
             Stage primaryStage = (Stage) this.rootNodeLogin.getScene().getWindow();
             primaryStage.setScene(scene);
             primaryStage.centerOnScreen();
+
         } else {
             System.exit(0);
         }

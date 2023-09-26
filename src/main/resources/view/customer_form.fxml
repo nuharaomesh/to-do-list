@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="819.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.javafx.controller.CustomerFormController">
+   <children>
+      <ImageView fitHeight="316.0" fitWidth="275.0" layoutX="14.0" layoutY="489.0">
+         <image>
+            <Image url="@/assets/customer/7f977354-c281-4613-ab1e-4a259b01bd65.png" />
+         </image>
+      </ImageView>
+      <JFXButton ellipsisString="" layoutX="6.0" layoutY="3.0" prefHeight="49.0" prefWidth="29.0" style="-fx-background-radius: 50;" textFill="#545454">
+         <graphic>
+            <ImageView fitHeight="26.0" fitWidth="26.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@/assets/customer/img.icons8.png" />
+               </image>
+            </ImageView>
+         </graphic></JFXButton>
+   </children>
+</AnchorPane>

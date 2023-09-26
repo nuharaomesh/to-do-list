@@ -14,13 +14,13 @@
    <children>
       <ImageView fitHeight="926.0" fitWidth="1209.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@/assets/login/login.png" />
+            <Image url="@/assets/login.png" />
          </image>
       </ImageView>
       <TextField fx:id="txtUserName" layoutX="568.0" layoutY="389.0" prefHeight="33.0" prefWidth="306.0" promptText="  Enter your email" style="-fx-background-radius: 10;" />
       <ImageView fitHeight="206.0" fitWidth="216.0" layoutX="913.0" layoutY="339.0">
          <image>
-            <Image url="@/assets/login/marginalia-password-protection.gif" />
+            <Image url="@/assets/marginalia-password-protection.gif" />
          </image>
       </ImageView>
       <JFXButton buttonType="RAISED" layoutX="588.0" layoutY="543.0" onAction="#btnLoginOnAction" prefHeight="33.0" prefWidth="267.0" style="-fx-background-radius: 10; -fx-background-color: #b3fafc;" text="Log in" textFill="#656565">
@@ -30,7 +30,7 @@
       <PasswordField fx:id="txtPassword" layoutX="568.0" layoutY="463.0" prefHeight="33.0" prefWidth="306.0" promptText="  Password" style="-fx-background-radius: 10;" />
       <ImageView fitHeight="367.0" fitWidth="331.0" layoutY="385.0">
          <image>
-            <Image url="@/assets/login/ecd872b8-47cf-4c3b-99a7-43a823cd8b18.png" />
+            <Image url="@/assets/ecd872b8-47cf-4c3b-99a7-43a823cd8b18.png" />
          </image>
       </ImageView>
       <Label layoutX="190.0" layoutY="176.0" prefHeight="53.0" prefWidth="153.0" text="New Here?" textFill="#4d4d4d">
